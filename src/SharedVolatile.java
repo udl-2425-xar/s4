@@ -1,6 +1,6 @@
-public class SharedUnsafe {
+public class SharedVolatile {
 
-    private static int x = 0;
+    private static volatile int x = 0;
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Inici");
